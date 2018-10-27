@@ -67,7 +67,7 @@
     border solid 2px
     border-radius 10px
     .nav
-      padding 10px
+      padding 10px 20px
       display flex
       .nav-button
         margin 0 10px
