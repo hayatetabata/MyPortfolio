@@ -8,7 +8,7 @@
         h1 ぷろふぃーる
     div(class="profile")
       div(class="thumbnail")
-        img(src="https://i2.gamebiz.jp/images/original/1053546925ab768029bbb90011.jpg")
+        img(src="/images/salary-man-pixel.png")
       div(class="detail")
         div(class="nav")
           div(class="nav-button")
@@ -59,7 +59,7 @@
     border-radius 10px
     text-align center
     img
-      width 70%
+      width 50%
   .detail
     font-size 30px
     width 50%
