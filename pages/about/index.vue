@@ -1,10 +1,14 @@
 <template lang="pug">
   div(id="container")
     div(id="header")
-      a(href="/") トップへ
-      h1 プロフィール
+      div(class="header-left")
+        div(class="nav-button")
+          a(href="/") とっぷ へ
+      div(class="header-right")
+        h1 ぷろふぃーる
     div(class="profile")
-      img(src="https://i2.gamebiz.jp/images/original/1053546925ab768029bbb90011.jpg")
+      div(class="thumbnail")
+        img(src="https://i2.gamebiz.jp/images/original/1053546925ab768029bbb90011.jpg")
       div(class="detail")
         div(class="nav")
           div(class="nav-button")
@@ -21,19 +25,55 @@
 </template>
 
 <style lang="stylus">
+.nav-button
+  padding 15px
+  font-family rpg-font-regular-12
+  border solid 2px
+  border-radius 10px
+  display inline-block
+  a
+    color white
+    text-decoration none
+
+#header
+  position relative
+  margin 10px
+  .header-left
+    display inline-block
+
+  .header-right
+    position absolute
+    right 10px
+    top -10px
+    display inline-block
+    h1
+      font-family rpg-font-bold-12
+
 .profile
   display flex
+  .thumbnail
+    width 50%
+    height 50%
+    margin 0 10px
+    border solid 2px
+    border-radius 10px
+    text-align center
+    img
+      width 70%
+  .detail
+    font-size 30px
+    width 50%
+    margin 0 10px
+    border solid 2px
+    border-radius 10px
+    .nav
+      padding 10px
+      display flex
+      .nav-button
+        margin 0 10px
 
-img
-  width 50%
-  height 50%
-
-.detail
-  margin 0 auto
-
-.nav
-  display flex
-
-.nav-button
-  margin 0 5px
+.section
+  padding 10px
+  font-family rpg-font-regular-12
+  line-height 45px
 </style>
