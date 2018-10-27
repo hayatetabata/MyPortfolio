@@ -1,4 +1,8 @@
 module.exports = {
+  css: [
+    { src: '~assets/css/font.css' }
+  ],
+
   /*
   ** Headers of the page
   */
@@ -11,7 +15,7 @@ module.exports = {
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
-    ]
+    ],
   },
   /*
   ** Customize the progress bar color

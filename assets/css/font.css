@@ -1,0 +1,19 @@
+@font-face {
+    font-family: "rpg-font-regular-12";
+    src: url('/fonts/PixelMplus12-Regular.ttf');
+}
+
+@font-face {
+    font-family: "rpg-font-regular-10";
+    src: url('/fonts/PixelMplus10-Regular.ttf');
+}
+
+@font-face {
+    font-family: "rpg-font-bold-12";
+    src: url('/fonts/PixelMplus12-Bold.ttf');
+}
+
+@font-face {
+    font-family: "rpg-font-regular-bold-10";
+    src: url('/fonts/PixelMplus10-Bold.ttf');
+}
