@@ -1,5 +1,6 @@
 .primary {
   background-color: #651fff !important;
+  color: #fff !important;
 }
 
 .secondary {
@@ -8,8 +9,21 @@
 
 .accent {
   background-color: #fdd835 !important;
+  color: #000 !important;
 }
 
 .error {
-  background-color: #c6a700 !important;
+  background-color: #FF5252 !important;
+}
+
+.info {
+  background-color: #2196F3 !important;
+}
+
+.success {
+  background-color: #4CAF50 !important;
+}
+
+.warning {
+  background-color: #FFC107 !important;
 }
