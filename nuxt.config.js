@@ -1,8 +1,4 @@
 module.exports = {
-  css: [
-    { src: '~assets/css/font.css' }
-  ],
-
   /*
   ** Headers of the page
   */
