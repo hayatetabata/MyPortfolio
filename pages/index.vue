@@ -7,6 +7,16 @@
       v-divider
       v-layout
         v-flex(xs4)
+          v-card(to="/about" hover)
+            v-img(
+              class="white--text"
+              src="https://www.tekedia.com/wp-content/uploads/2018/06/about-me.jpg"
+              :aspect-ratio="16/9"
+            )
+            v-card-title(class="headline font-weight-medium") About
+            v-card-text(class="subheading font-weight-regular") Introduce me for you.
+
+        v-flex(xs4)
           v-card(to="/profile/history" hover)
             v-img(
               class="white--text"
@@ -22,7 +32,7 @@
       v-divider
       v-layout
         v-flex(xs4)
-          v-card(to="/languages" hover)
+          v-card(to="/works/languages" hover)
             v-img(
               class="white--text"
               src="https://cdn-images-1.medium.com/max/1600/1*CzwDS_yByKtMNdScO3RaPA.jpeg"
@@ -32,7 +42,7 @@
             v-card-text About programming languages I usually use.
 
         v-flex(xs4)
-          v-card(to="/tools" hover)
+          v-card(to="/works/tools" hover)
             v-img(
               class="white--text"
               src="http://cybergrota.com.pl/wp-content/uploads/2018/05/Tools-from-nathan-laytka.jpg"
@@ -47,7 +57,7 @@
       v-divider
       v-layout
         v-flex(xs4)
-          v-card
+          v-card(to="/portfolio/products" hover)
             v-img(
               class="white--text"
               src="http://atlastoolandmachine.com/wp-content/uploads/2018/03/hd-machine-wallpaper_101649396_287.jpg"
@@ -57,7 +67,7 @@
             v-card-text Coming Soon...
 
         v-flex(xs4)
-          v-card
+          v-card(to="/portfolio/blogs" hover)
             v-img(
               class="white--text"
               src="https://cdn-images-1.medium.com/max/1200/1*9B7S9mipwLURUX9wdZN7Pw.jpeg"

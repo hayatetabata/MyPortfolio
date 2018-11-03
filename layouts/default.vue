@@ -11,6 +11,11 @@
         v-list-tile
           v-list-tile-title Profile
         v-divider
+        v-list-tile(to="/about")
+          v-list-tile-action
+            v-icon face
+          v-list-tile-content
+            v-list-tile-title About
         v-list-tile(to="/profile/history")
           v-list-tile-action
             v-icon history
