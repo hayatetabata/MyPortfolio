@@ -1,9 +1,10 @@
 <template lang="pug">
-  v-container(fill-height)
-    v-layout(justify-center align-center)
-      div
-        h1(class="title") My Portfolio Site
-        app-logo
+  v-content
+    v-container(fill-height)
+      v-layout(justify-center align-center)
+        div
+          h1(class="title") My Portfolio Site
+          app-logo
 </template>
 
 <script>

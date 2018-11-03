@@ -11,16 +11,21 @@
             v-icon home
           v-list-tile-content
             v-list-tile-title Home
+        v-list-tile(to="/profile/history")
+          v-list-tile-action
+            v-icon home
+          v-list-tile-content
+            v-list-tile-title History
 
         v-list-tile
           v-list-tile-title Works
         v-divider
-        v-list-tile(to="languages")
+        v-list-tile(to="/languages")
           v-list-tile-action
             v-icon settings
           v-list-tile-content
             v-list-tile-title Languages
-        v-list-tile(to="tools")
+        v-list-tile(to="/tools")
           v-list-tile-action
             v-icon build
           v-list-tile-content
@@ -29,7 +34,7 @@
         v-list-tile
           v-list-tile-title Others
         v-divider
-        v-list-tile(to="contact")
+        v-list-tile(to="/contact")
           v-list-tile-action
             v-icon email
           v-list-tile-content
@@ -39,8 +44,7 @@
       v-toolbar-side-icon(dark)
       v-list-tile
         v-list-tile-title MyPortfolioSite
-    v-content
-      v-btn(fixed fab bottom right color="accent")
-        v-icon add
+    v-btn(fixed fab bottom right color="accent")
+      v-icon add
     nuxt
 </template>
