@@ -21,6 +21,9 @@ module.exports = {
   modules: [
     '@nuxtjs/vuetify',
     '@nuxtjs/font-awesome',
+    ['@nuxtjs/google-analytics', {
+      id: 'UA-128624064-1'
+    }]
   ],
   css: [
     '@/assets/css/vuetify-theme.css'
