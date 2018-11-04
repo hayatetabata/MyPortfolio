@@ -1,40 +1,38 @@
 <template lang="pug">
   v-content
-    v-container(grid-list-xl)
+    v-container(grid-list-xl fill-height)
       v-layout
-        v-flex
+        v-flex(xs4)
           v-card
-            v-img(
-              class="white--text"
-              height="200px"
-              src="http://php.net//images/logos/new-php-logo.svg"
-            )
-              v-container
-                v-layout(fill-height)
-                  v-flex(xs12 align-end flexbox)
-                    span(class="headline") AAA Top 10 Australian beaches
+            v-layout(justify-center)
+              v-flex(xs6)
+                v-img(src="/images/php-logo.png")
+            v-layout(justify-center)
+              v-flex(xs10)
+                v-card-text
+                  | PHP is my first language on the sector of programming.
+                  | I have used PHP for about two years And I usually use Laravel Framework.
 
-            v-card-title
-              div
-                span(class="gray--text") PHP
-            v-card-actions
-              v-btn(flat color="orange") Share
-
-        v-flex
+        v-flex(xs4)
           v-card
-            v-img(
-              class="white--text"
-              height="200px"
-              src="https://exiz.org/system/uploads/2015/02/js.png"
-            )
-              v-container
-                v-layout(fill-height)
-                  v-flex(xs12 align-end flexbox)
-                    span(class="headline") AAA Top 10 Australian beaches
-
-            v-card-title
-              div
-                span(class="gray--text") Javascript
-            v-card-actions
-              v-btn(flat color="orange") Share
+            v-layout(justify-center)
+              v-flex(xs6)
+                v-img(src="https://exiz.org/system/uploads/2015/02/js.png")
+            v-layout(justify-center)
+              v-flex(xs10)
+                v-card-text
+                  | Javascript is my second language on the sector of programming.
+                  | I have used PHP for about a year And I usually use Vue.js Library.
+                  | Recently, when I create a new project, I prefer to use Nuxt Framework
+                  | for using Vue.js.
+        v-flex(xs4)
+          v-card
+            v-layout(justify-center)
+              v-flex(xs6)
+                v-img(src="https://holiday-and-program.m1-star.com/wp-content/uploads/sites/6/2017/11/unity3d-logo-300x300-300x280.png")
+            v-layout(justify-center)
+              v-flex(xs10)
+                v-card-text
+                  | I often use Unity Engine to create 2D games and use C#.
+                  | I have used Unity and C# for about half a year.
 </template>
